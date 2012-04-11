@@ -1,0 +1,497 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background	background: color image repeat attachment position"
+			],
+			[
+				"_d",
+				"_drawLineS"
+			],
+			[
+				"_scale",
+				"_scaleHeight"
+			],
+			[
+				"write",
+				"write_protect"
+			],
+			[
+				"map",
+				"mapping"
+			],
+			[
+				"tran",
+				"transfer_length"
+			],
+			[
+				"SufamiTur",
+				"SufamiTurboBRAM"
+			],
+			[
+				"sync",
+				"synchronize_cpu"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Reg",
+				"Reg16"
+			],
+			[
+				"Re",
+				"RegFlag"
+			],
+			[
+				"OPCODE",
+				"OPCODE_X"
+			],
+			[
+				"ke",
+				"keydown"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"S",
+				"Stone"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rai",
+				"Simple Rails Navigator: List controllers"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"frm",
+				"Format: Javascript"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"keydo",
+				"Snippet: keydown"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ianschool/Desktop/p/testrails/blog/app/views/posts/new.html.erb",
+		"/Users/ianschool/Desktop/p/testrails/blog/app/views/posts/_form.html.erb",
+		"/Users/ianschool/Desktop/p/testrails/blog/app/views/layouts/application.html.erb",
+		"/Users/ianschool/Desktop/p/testrails/blog/.gitignore",
+		"/Users/ianschool/Desktop/p/testrails/blog/app/views/home/index.html.erb",
+		"/Users/ianschool/Desktop/p/testrails/blog/app/models/post.rb",
+		"/Users/ianschool/Desktop/p/testrails/blog/config/routes.rb",
+		"/Users/ianschool/Desktop/p/js-plotmap/plotmap.css",
+		"/Users/ianschool/Desktop/p/js-plotmap/index.html",
+		"/Users/ianschool/Desktop/p/js-plotmap/plotmap.js",
+		"/Users/ianschool/Dropbox/School/10th/English/4th Quarter/notes/LesMisPlotMap.yml",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/User/YAML.sublime-settings",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/ianschool/Desktop/p/js-plotmap/MIT-LICENSE.txt",
+		"/Users/ianschool/Desktop/p/sjs/source/memory/Bus.js",
+		"/Users/ianschool/Dropbox/School/10th/English/4th Quarter/notes/PlotMapNotes.txt",
+		"/Users/ianschool/Desktop/example.js",
+		"/Users/ianschool/Desktop/p/mtm/README.md",
+		"/Users/ianschool/Desktop/p/mtm/LICENSE.txt",
+		"/Users/ianschool/Desktop/p/sjs/source/memory/MapMode.js",
+		"/Users/ianschool/Desktop/p/sjs/jake.yml",
+		"/Users/ianschool/Desktop/p/sjs/source/SnesJS.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/CPUCore.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/CPUOps.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/CPU.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/Status.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/DMA.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/MMIO.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/Memory.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/Timing.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/Registers.js",
+		"/Users/ianschool/Desktop/p/sjs/.gitignore",
+		"/Users/ianschool/Desktop/p/sjs/source/Constants.js",
+		"/Users/ianschool/Desktop/p/sjs/source/cpu/Channel.js",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/JavaScript/Jake.sublime-build",
+		"/Users/ianschool/Desktop/p/snesjs/source/Constants.js",
+		"/Users/ianschool/Desktop/p/snesjs/jake.yml",
+		"/Users/ianschool/Desktop/p/snesjs/source/cpu/CPU.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/cpu/CPUOps.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/chip/Coprocessor.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/smp/SMP.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/smp/SMPCore.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/cpu/Status.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/cpu/ALU.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/cpu/Registers.js",
+		"/Users/ianschool/Desktop/p/snesjs/index.html",
+		"/Users/ianschool/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/ianschool/Desktop/p/latindict/index.html",
+		"/Users/ianschool/Desktop/p/snesjs/source/util/MiscUtils.js",
+		"/Users/ianschool/Desktop/p/snesjs/build/snesjs-min.js",
+		"/Users/ianschool/Desktop/p/snesjs/build/snesjs-src.js",
+		"/Users/ianschool/Desktop/p/snesjs/source/HEADER.txt",
+		"/Users/ianschool/Desktop/p/snesjs/Jakefile.js",
+		"/Users/ianschool/Desktop/p/snesjs/LICENSE.txt",
+		"/Users/ianschool/Desktop/p/snesjs/src/cpu/Registers.js",
+		"/Users/ianschool/Desktop/p/snesjs/src/cpu/CPU.js",
+		"/Users/ianschool/Desktop/p/snesjs/src/cpu/CPUOps.js",
+		"/Users/ianschool/Desktop/p/snesjs/src/util/Bits.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/cpu/Reg24.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/util.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/cpu/CPUOps.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/cpu/CPU.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/cpu_ops.js",
+		"/Users/ianschool/Desktop/p/snesjs/js/cpu.js",
+		"/Users/ianschool/Desktop/p/gbonline/main.css",
+		"/Users/ianschool/Desktop/p/gbonline/roms.js",
+		"/Users/ianschool/Desktop/p/gbonline/index.html",
+		"/Users/ianschool/Desktop/p/gbo/index.html",
+		"/Users/ianschool/Desktop/p/gbo/main.js",
+		"/Users/ianschool/Desktop/p/gbo/php/proxy.php",
+		"/Users/ianschool/Desktop/p/gbo/js/other/transportHandler.js",
+		"/Users/ianschool/Dropbox/School/10th/History/Test 10/HitlerInterview.txt"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ianschool/Desktop/p/gbo",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"translate",
+			"unsigned",
+			".* Bus::(.*)\\(",
+			"unsigned",
+			".* Bus::(.*)\\(",
+			"last_",
+			"regs",
+			"op_read(",
+			"op_write(",
+			"alwaysinline .* (.*)\\(",
+			"op_",
+			"regs",
+			"alwaysinline void CPUcore::(.*)\\(",
+			"status",
+			"regs",
+			"this.status.snes",
+			"this.",
+			"this.status.snes",
+			"this.status.status.",
+			"this.",
+			"this.rom_speed",
+			"unsigned ",
+			"uint8 ",
+			"cpu_status_",
+			"this.status_",
+			"var cpu_",
+			"uint8",
+			"uint16",
+			"bool",
+			"status.",
+			"unsigned",
+			"status.",
+			"unsigned",
+			"public \\w* ",
+			"return op_",
+			"op_",
+			"op_step",
+			"synchronize_dsp",
+			"var ",
+			"public \\w+",
+			"func2(this",
+			"func1(this",
+			" = [];",
+			".r ",
+			"1U",
+			"irq",
+			"io",
+			"branch",
+			"\\n",
+			"\\);\\n",
+			"    getFunc",
+			"(int)OpCode.",
+			"\\top",
+			"function ",
+			"string fn",
+			"(id,",
+			"\\n\\{",
+			"int y",
+			"int x",
+			"string name",
+			"byte id",
+			"private void ",
+			"op_table",
+			"(int)Table.",
+			"openRom",
+			"getFileADdress",
+			"showAsMin",
+			"windowing",
+			"findKey",
+			"removeEve",
+			"pageXc",
+			"mouse",
+			"isDescendantOf",
+			"addEvent",
+			"gameboykeyup",
+			"windowinginitunload",
+			"openGameSelection",
+			"res",
+			"arguments = ",
+			"arguments[1]",
+			"arguments",
+			"romStream",
+			"function Ajax",
+			"button_rack",
+			"terminal",
+			"about",
+			"settings",
+			"instructions",
+			"file",
+			"php",
+			"http://voxton.net/gb/GameBoy-Online",
+			"GameBoyEmulatorInitialized",
+			"GameBoyEmulatorPlaying",
+			"clearLastEmulation",
+			"mainCanvas",
+			"start",
+			"drawContext",
+			"start",
+			"gfx",
+			"mainCanvas",
+			"link",
+			"settings[3]",
+			"matchKey",
+			"GameBoyKeyDown",
+			"GameBoyKEyDown",
+			"Key"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"var",
+			"SNESJS.Bus.prototype.$1 = function(",
+			"",
+			"SNESJS.Bus.prototype.$1 = function(",
+			"this.regs",
+			"this.op_read(",
+			"this.op_write(",
+			"SNESJS.CPU.prototype.$1 = function(",
+			"this.op_",
+			"this.regs",
+			"SNESJS.CPU.prototype.$1 = function(",
+			"this.status",
+			"this.regs",
+			"this.snes",
+			"this.status.",
+			"this.snes",
+			"this.status.",
+			"this.status.rom_speed",
+			"",
+			"this.",
+			"var",
+			"cpu_status_",
+			"var",
+			"cpu_status_",
+			"var",
+			"this.",
+			"return SNESJS.SMP.op_",
+			"SNESJS.SMP.op_",
+			"\\tthis.",
+			"var",
+			"func2(cpu",
+			"func1(cpu",
+			"    function() { getFunc",
+			"OPCODE_",
+			"this.op",
+			"function() ",
+			"fn",
+			" = function(id,",
+			" {",
+			"y",
+			"x",
+			"name",
+			"id",
+			"SNESJS.CPU.prototype.",
+			"this.optable",
+			"TBL_",
+			".",
+			"this.__gbInitialized",
+			"this.__gbEmulatorPlaying"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true
+}
