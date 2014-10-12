@@ -1,0 +1,4 @@
+ajaxdict
+========
+
+Multilingual, AJAX dictionary
