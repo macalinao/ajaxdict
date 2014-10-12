@@ -35,6 +35,9 @@ function parseContent(content) {
   content.find('span#References').parent().remove();
   content.find('.references').remove();
 
+  // Remove any weird styling
+  content.find('*').removeAttr('style');
+
   content.find('a').contents().unwrap(); // Remove links
 }
 
