@@ -1,0 +1,63 @@
+body {
+  color: #774f38;
+  background-color: #f1d4af;
+  font-family: Lato, sans-serif;
+}
+
+#content {
+  margin: 0px auto;
+  width: 900px;
+}
+
+div#intro {
+  text-align: center;
+}
+
+div#inputs {
+  
+}
+
+h1#title {
+  color: #493831;
+  font-size: 200px;
+  line-height: 0px;
+  font-family: Bitter, Cambria, serif;
+  font-weight: bold;
+}
+
+p#subtitle {
+  font-size: 40px;
+  font-family: Bitter, Cambria, serif;
+}
+
+input#word {
+  font-size: 40px;
+  padding: 20px 50px;
+  height: 50px;
+  background-color: #fdfdde;
+  border: 0px none;
+  font-family: Lato, sans-serif;
+  border-bottom: 5px solid #aaaaaa;
+}
+
+p#pressEnter {
+  font-size: 20px;
+}
+
+.editsection {
+    display: none;
+}
+
+.bigtext {
+    font-size: 40pt;
+    height: 60px;
+    width: 80%;
+}
+
+.noprint {
+    display: none;
+}
+
+#dictlookup {
+    text-align: center;
+}
