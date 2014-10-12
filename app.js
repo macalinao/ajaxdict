@@ -29,8 +29,12 @@ function handleJsonResult(json) {
 }
 
 function parseContent(content) {
-  content.find('h2').remove(); // don't need language
-  content.find('.mw-editsection, img').remove();
+  content.find('.mw-editsection, img, hr, h2').remove();
+
+  // Remove references
+  content.find('span#References').parent().remove();
+  content.find('.references').remove();
+
   content.find('a').contents().unwrap(); // Remove links
 }
 
