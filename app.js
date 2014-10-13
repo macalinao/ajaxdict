@@ -6,7 +6,7 @@ function handleSearch(word) {
 }
 
 function handleJsonResult(json) {
-  if (json.parse === null || json.parse.revid < 1) {
+  if (!json.parse || json.parse.revid < 1) {
     alert('no results');
   }
 
