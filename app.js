@@ -23,7 +23,7 @@ function handleJsonResult(json) {
       return;
     }
   }
-  
+
   var $content = $('<div>' + match[0] + '</div');
   parseContent($content);
   $('#results').html($content.html());
@@ -66,16 +66,19 @@ $(function() {
       $word.blur();
     }
   });
+
+  // Handle search box page showing
   $(document).keydown(function() {
-    if (!$word.is(':focus')) {
-      showSearchBoxPage();
-      $word.focus();
+    if ($word.hasClass('word-out')) {
+      return;
     }
+    showSearchBoxPage();
+    $word.focus();
   });
 
+  // Handle search box page hiding
   $word.blur(function() {
     if ($('#results').text().trim()) {
-      console.log($('#results').text());
       return;
     }
     $word.val('');
