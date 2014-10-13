@@ -10,7 +10,7 @@ function handleJsonResult(json) {
     alert('no results');
   }
 
-  var currentLanguage = 'Latin';
+  var currentLanguage = $('#language').text();
   var regex = new RegExp("<h2>.*" + currentLanguage + ".*<\\/h2>([\\s\\S]*?)<h2>");
   var regex2 = new RegExp("<h2>.*" + currentLanguage + ".*<\\/h2>([\\s\\S]*)");
 
@@ -49,10 +49,13 @@ function errorEntry(language, word) {
 $(function() {
 
   // language selector
-  var $lang = $('#language');
+  var $lang = $('#languagePanel ul');
   $lang.html('');
   $.each(languages, function(i, lang) {
-    var opt = $('<option>' + lang + '</option>');
+    var opt = $('<li><a href="#">' + lang + '</a></li>');
+    opt.click(function() {
+      $('#language').text(lang);
+    });
     $lang.append(opt);
   });
 
@@ -91,7 +94,6 @@ $(function() {
       handleSearch($word.val());
     }
   });
-
 });
 
 function showSearchBoxPage() {

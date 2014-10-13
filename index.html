@@ -10,17 +10,23 @@
 
   <link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href="vendor/jquery.dropdown.css" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
   <div id="intro">
     <h1 id="title">defo.me</h1>
-    <p id="subtitle">Simple, beautiful
-      <select id="language">
-        <option>English</option>
-      </select>dictionary</p>
+    <p id="subtitle">Simple, beautiful <span id="language" data-dropdown="#languagePanel">English</span> dictionary</p>
   </div>
+
+  <div id="languagePanel" class="dropdown dropdown-tip">
+    <ul class="dropdown-menu">
+      <li>English</li>
+      <li>Spanish</li>
+    </ul>
+  </div>
+
   <div id="content">
     <input id="word" type="text" placeholder="Start typing a word..." />
     <div id="results">
@@ -29,6 +35,7 @@
 
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery.dropdown.js"></script>
   <script src="app.js"></script>
 
 </body>

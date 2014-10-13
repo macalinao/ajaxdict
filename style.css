@@ -23,7 +23,7 @@ div#intro {
 
 h1#title {
   color: #493831;
-  font-size: 200px;
+  font-size: 150px;
   line-height: 0px;
   font-family: Bitter, Cambria, serif;
   font-weight: bold;
@@ -32,14 +32,11 @@ p#subtitle {
   font-size: 40px;
   font-family: Bitter, Cambria, serif;
 }
-select#language {
-  border: none;
+
+span#language {
   border-bottom: 1px dashed #493831;
-  font-size: 40px;
-  color: #774f38;
-  font-family: Bitter, Cambria, serif;
-  background-color: #fdfdde;
 }
+
 option {
   background-color: #f1d4af;
 }
@@ -51,15 +48,19 @@ input#word {
   border: 1px solid #cccccc;
   font-family: Lato, sans-serif;
   border-radius: 5px;
-  width: 500px;
+  width: 400px;
 }
 
 p#pressEnter {
   font-size: 20px;
 }
 
+select#langSelect {
+  display: none;
+}
+
 div#content {
-  margin-top: 500px;
+  margin-top: 400px;
   width: 100%;
   text-align: center;
 }
@@ -72,7 +73,7 @@ div.content-out {
 
 @keyframes content-out {
   from {
-    margin-top: 500px;
+    margin-top: 400px;
   }
   to {
     margin-top: 0px;
@@ -90,12 +91,12 @@ div.content-in {
     margin-top: 0px;
   }
   to {
-    margin-top: 500px;
+    margin-top: 400px;
   }
 }
 
 input#word {
-  width: 500px;
+  width: 400px;
 }
 
 input.word-out {
@@ -106,7 +107,7 @@ input.word-out {
 
 @keyframes word-out {
   from {
-    width: 500px;
+    width: 400px;
   }
   to {
     width: 100%;
@@ -124,7 +125,7 @@ input.word-in {
     width: 100%;
   }
   to {
-    width: 500px;
+    width: 400px;
   }
 }
 
@@ -134,7 +135,7 @@ div#intro {
   margin-top: 100px;
   position: fixed;
   text-align: center;
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
