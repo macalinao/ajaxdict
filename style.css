@@ -1,20 +1,24 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
 body {
   color: #774f38;
   background-color: #f1d4af;
   font-family: Lato, sans-serif;
 }
 
-#content {
+#results {
   margin: 0px auto;
   width: 900px;
+  text-align: left;
 }
 
 div#intro {
   text-align: center;
-}
-
-div#inputs {
-  
 }
 
 h1#title {
@@ -24,40 +28,146 @@ h1#title {
   font-family: Bitter, Cambria, serif;
   font-weight: bold;
 }
-
 p#subtitle {
   font-size: 40px;
   font-family: Bitter, Cambria, serif;
 }
-
+select#language {
+  border: none;
+  border-bottom: 1px dashed #493831;
+  font-size: 40px;
+  color: #774f38;
+  font-family: Bitter, Cambria, serif;
+  background-color: #fdfdde;
+}
+option {
+  background-color: #f1d4af;
+}
 input#word {
   font-size: 40px;
   padding: 20px 50px;
   height: 50px;
-  background-color: #fdfdde;
-  border: 0px none;
+  background-color: #fdeecd;
+  border: 1px solid #cccccc;
   font-family: Lato, sans-serif;
-  border-bottom: 5px solid #aaaaaa;
+  border-radius: 5px;
+  width: 500px;
 }
 
 p#pressEnter {
   font-size: 20px;
 }
 
-.editsection {
-    display: none;
+div#content {
+  margin-top: 500px;
+  width: 100%;
+  text-align: center;
 }
 
-.bigtext {
-    font-size: 40pt;
-    height: 60px;
-    width: 80%;
+div.content-out {
+  animation: content-out 0.5s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
 }
 
-.noprint {
-    display: none;
+@keyframes content-out {
+  from {
+    margin-top: 500px;
+  }
+  to {
+    margin-top: 0px;
+  }
 }
 
-#dictlookup {
-    text-align: center;
+div.content-in {
+  animation: content-in 0.5s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
+}
+
+@keyframes content-in {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 500px;
+  }
+}
+
+input#word {
+  width: 500px;
+}
+
+input.word-out {
+  animation: word-out 0.5s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
+}
+
+@keyframes word-out {
+  from {
+    width: 500px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+input.word-in {
+  animation: word-in 0.5s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
+}
+
+@keyframes word-in {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 500px;
+  }
+}
+
+div#intro {
+  left: 0;
+  top: 0;
+  margin-top: 100px;
+  position: fixed;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+}
+
+div.intro-out {
+  animation: intro-out 1s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
+}
+
+@keyframes intro-out {
+  from {
+    margin-top: 100px;
+    opacity: 100%;
+  }
+  to {
+    margin-top: -1000px;
+    opacity: 50%;
+  }
+}
+
+div.intro-in {
+  animation: intro-in 0.5s;
+  animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  animation-fill-mode: forwards;
+}
+
+@keyframes intro-in {
+  from {
+    margin-top: -1000px;
+    opacity: 50%;
+  }
+  to {
+    margin-top: 100px;
+    opacity: 100%;
+  }
 }

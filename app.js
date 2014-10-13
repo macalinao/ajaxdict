@@ -1,4 +1,5 @@
 var baseURL = 'http://en.wiktionary.org';
+var languages = ['English', 'Latin', 'Spanish'];
 
 function handleSearch(word) {
   $.getJSON(baseURL + '/w/api.php?action=parse&format=json&prop=text|revid|displaytitle&callback=?&page=' + word, handleJsonResult);
@@ -47,9 +48,16 @@ function errorEntry(language, word) {
 
 $(function() {
 
+  // language selector
+  var $lang = $('#language');
+  $lang.html('');
+  $.each(languages, function(i, lang) {
+    var opt = $('<option>' + lang + '</option>');
+    $lang.append(opt);
+  });
+
   // Word textbox stuff
   var $word = $('#word');
-  $word.focus();
   $word.focus(function() {
     $(this).select();
   });
@@ -60,8 +68,14 @@ $(function() {
   });
   $(document).keydown(function() {
     if (!$word.is(':focus')) {
+      showSearchBoxPage();
       $word.focus();
     }
+  });
+
+  $word.blur(function() {
+    $word.val('');
+    hideSearchBoxPage();
   });
 
   // Handle search enter
@@ -72,3 +86,18 @@ $(function() {
   });
 
 });
+
+function showSearchBoxPage() {
+  var $intro = $('#intro');
+  $intro.removeClass('intro-in').addClass('intro-out');
+  $('#content').removeClass('content-in').addClass('content-out');
+  $('#word').removeClass('word-in').addClass('word-out');
+}
+
+function hideSearchBoxPage() {
+  var $intro = $('#intro');
+  $intro.removeClass('intro-out').addClass('intro-in');
+  $('#content').removeClass('content-out').addClass('content-in');
+  $('#word').removeClass('word-out').addClass('word-in');
+  $('#results').html('');
+}
