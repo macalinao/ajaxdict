@@ -74,6 +74,10 @@ $(function() {
   });
 
   $word.blur(function() {
+    if ($('#results').text().trim()) {
+      console.log($('#results').text());
+      return;
+    }
     $word.val('');
     hideSearchBoxPage();
   });
