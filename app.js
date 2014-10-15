@@ -100,7 +100,7 @@ $(function() {
   })
 
   $(document).keydown(function(e) {
-    if (e.which === 27 && $('#content').hasClass('content-out')) {
+    if (e.which === 27 && $('#intro').hasClass('intro-out')) {
       hideSearchBoxPage();
     }
   });
@@ -108,13 +108,13 @@ $(function() {
 
 function showSearchBoxPage() {
   $('#intro').removeClass('intro-in').addClass('intro-out');
-  $('#content').removeClass('content-in').addClass('content-out');
   $('#word').removeClass('word-in').addClass('word-out');
+  $('#wc').removeClass('wc-in').addClass('wc-out');
 }
 
 function hideSearchBoxPage() {
   $('#intro').removeClass('intro-out').addClass('intro-in');
-  $('#content').removeClass('content-out').addClass('content-in');
   $('#word').removeClass('word-out').addClass('word-in');
+  $('#wc').removeClass('wc-out').addClass('wc-in');
   $('#results').html('');
 }

@@ -61,18 +61,27 @@ select#langSelect {
 }
 
 div#content {
-  margin-top: 400px;
+  margin-top: 100px;
   width: 100%;
   text-align: center;
 }
 
-div.content-out {
-  animation: content-out 0.5s;
+div#wc {
+  margin-top: 400px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+div.wc-out {
+  animation: wc-out 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
 }
 
-@keyframes content-out {
+@keyframes wc-out {
   from {
     margin-top: 400px;
   }
@@ -81,13 +90,13 @@ div.content-out {
   }
 }
 
-div.content-in {
-  animation: content-in 0.5s;
+div.wc-in {
+  animation: wc-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
 }
 
-@keyframes content-in {
+@keyframes wc-in {
   from {
     margin-top: 0px;
   }
@@ -95,6 +104,7 @@ div.content-in {
     margin-top: 400px;
   }
 }
+
 
 input#word {
   width: 400px;
