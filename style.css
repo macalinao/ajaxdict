@@ -34,6 +34,7 @@ p#subtitle {
 }
 
 span#language {
+  cursor: pointer;
   border-bottom: 1px dashed #493831;
 }
 

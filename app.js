@@ -71,9 +71,13 @@ $(function() {
   });
 
   // Handle search box page showing
-  $(document).keydown(function() {
+  $(document).keydown(function(e) {
     if ($word.hasClass('word-out')) {
       return;
+    }
+    switch (e.which) {
+      case 27:
+        return;
     }
     showSearchBoxPage();
     $word.focus();
@@ -93,19 +97,23 @@ $(function() {
     if (e.which === 13) {
       handleSearch($word.val());
     }
+  })
+
+  $(document).keydown(function(e) {
+    if (e.which === 27 && $('#content').hasClass('content-out')) {
+      hideSearchBoxPage();
+    }
   });
 });
 
 function showSearchBoxPage() {
-  var $intro = $('#intro');
-  $intro.removeClass('intro-in').addClass('intro-out');
+  $('#intro').removeClass('intro-in').addClass('intro-out');
   $('#content').removeClass('content-in').addClass('content-out');
   $('#word').removeClass('word-in').addClass('word-out');
 }
 
 function hideSearchBoxPage() {
-  var $intro = $('#intro');
-  $intro.removeClass('intro-out').addClass('intro-in');
+  $('#intro').removeClass('intro-out').addClass('intro-in');
   $('#content').removeClass('content-out').addClass('content-in');
   $('#word').removeClass('word-out').addClass('word-in');
   $('#results').html('');
