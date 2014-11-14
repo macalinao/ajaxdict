@@ -28,6 +28,7 @@ h1#title {
   font-family: Bitter, Cambria, serif;
   font-weight: bold;
 }
+
 p#subtitle {
   font-size: 40px;
   font-family: Bitter, Cambria, serif;
@@ -182,4 +183,21 @@ div.intro-in {
     margin-top: 100px;
     opacity: 100%;
   }
+}
+
+h2.type {
+  font-family: Bitter, Cambria, serif;
+  font-size: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px #774F38 dashed;
+}
+
+ol.results  li {
+  font-family: Bitter, Cambria, serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.light {
+  font-weight: normal;
 }

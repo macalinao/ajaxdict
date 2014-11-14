@@ -25,7 +25,7 @@ function handleJsonResult(json) {
   }
 
   var $content = $('<div>' + match[0] + '</div');
-  parseContent($content);
+  $content = parseContent($content);
   $('#results').html($content.html());
 }
 
@@ -40,6 +40,22 @@ function parseContent(content) {
   content.find('*').removeAttr('style');
 
   content.find('a').contents().unwrap(); // Remove links
+
+  var ret = $('<div>');
+
+  content.find('#Adjective, #Noun, #Verb').each(function() {
+
+    var type = $(this).attr('id');
+    var $p = $(this).parent();
+    var html = $p.next().next();
+    html.attr('id', '').addClass('results');
+
+    ret.append('<h2 class="type">' + $('#word').val() + ' <span class="light">(' + type.toLowerCase() + ')</span></h2>');
+    ret.append(html);
+
+  });
+
+  return ret;
 }
 
 function errorEntry(language, word) {
