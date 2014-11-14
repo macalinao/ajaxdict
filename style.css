@@ -6,9 +6,9 @@ html, body {
 }
 
 body {
+  font-family: Bitter, Cambria, serif;
   color: #774f38;
   background-color: #f1d4af;
-  font-family: Lato, sans-serif;
 }
 
 #results {
@@ -25,13 +25,11 @@ h1#title {
   color: #493831;
   font-size: 150px;
   line-height: 0px;
-  font-family: Bitter, Cambria, serif;
   font-weight: bold;
 }
 
 p#subtitle {
   font-size: 40px;
-  font-family: Bitter, Cambria, serif;
 }
 
 span#language {
@@ -42,13 +40,14 @@ span#language {
 option {
   background-color: #f1d4af;
 }
+
 input#word {
+  font-family: Bitter, Cambria, serif;
   font-size: 40px;
   padding: 20px 50px;
   height: 50px;
   background-color: #fdeecd;
   border: 1px solid #cccccc;
-  font-family: Lato, sans-serif;
   border-radius: 5px;
   width: 400px;
 }
@@ -186,14 +185,12 @@ div.intro-in {
 }
 
 h2.type {
-  font-family: Bitter, Cambria, serif;
   font-size: 50px;
   padding-bottom: 10px;
   border-bottom: 1px #774F38 dashed;
 }
 
 ol.results  li {
-  font-family: Bitter, Cambria, serif;
   font-size: 30px;
   margin-bottom: 50px;
 }
