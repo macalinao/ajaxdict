@@ -76,6 +76,9 @@ div#wc {
 }
 
 div.wc-out {
+  -webkit-animation: wc-out 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: wc-out 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
@@ -91,6 +94,9 @@ div.wc-out {
 }
 
 div.wc-in {
+  -webkit-animation: wc-in 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: wc-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
@@ -111,6 +117,9 @@ input#word {
 }
 
 input.word-out {
+  -webkit-animation: word-out 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: word-out 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
@@ -126,6 +135,9 @@ input.word-out {
 }
 
 input.word-in {
+  -webkit-animation: word-in 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: word-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
@@ -151,6 +163,9 @@ div#intro {
 }
 
 div.intro-out {
+  -webkit-animation: intro-out 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: intro-out 1s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
@@ -168,6 +183,9 @@ div.intro-out {
 }
 
 div.intro-in {
+  -webkit-animation: intro-in 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+  -webkit-animation-fill-mode: forwards;
   animation: intro-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
