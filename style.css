@@ -84,6 +84,15 @@ div.wc-out {
   animation-fill-mode: forwards;
 }
 
+@-webkit-keyframes wc-out {
+  from {
+    margin-top: 400px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
 @keyframes wc-out {
   from {
     margin-top: 400px;
@@ -100,6 +109,15 @@ div.wc-in {
   animation: wc-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes wc-in {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 400px;
+  }
 }
 
 @keyframes wc-in {
@@ -125,6 +143,25 @@ input.word-out {
   animation-fill-mode: forwards;
 }
 
+@-webkit-keyframes word-out {
+  from {
+    width: 400px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+@-webkit-keyframes word-out {
+  from {
+    width: 400px;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 @keyframes word-out {
   from {
     width: 400px;
@@ -141,6 +178,15 @@ input.word-in {
   animation: word-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes word-in {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 400px;
+  }
 }
 
 @keyframes word-in {
@@ -171,6 +217,17 @@ div.intro-out {
   animation-fill-mode: forwards;
 }
 
+@-webkit-keyframes intro-out {
+  from {
+    margin-top: 100px;
+    opacity: 100%;
+  }
+  to {
+    margin-top: -1000px;
+    opacity: 50%;
+  }
+}
+
 @keyframes intro-out {
   from {
     margin-top: 100px;
@@ -189,6 +246,17 @@ div.intro-in {
   animation: intro-in 0.5s;
   animation-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000); 
   animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes intro-in {
+  from {
+    margin-top: -1000px;
+    opacity: 50%;
+  }
+  to {
+    margin-top: 100px;
+    opacity: 100%;
+  }
 }
 
 @keyframes intro-in {
